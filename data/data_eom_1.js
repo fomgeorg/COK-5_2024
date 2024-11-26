@@ -1,7 +1,7 @@
 window.dataLoaded = false;
     let title_of_eom = themeOfDEC;
     let methodRecomendation = 'fghfghfhfg Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat voluptatum quos rerum, repudiandae doloribus dolores pariatur explicabo laborum corporis!';
-    let dropType = 5;
+    let dropType = 10;
     let typeOfButtons = 'video'; // Можер быть "hexagon", "lightning", "tiles" или "video" или "custom";
     let timings = [ // если typeOfButtons = 'video'
         { time: 14, name: "1. Селективная очистка масел фенолом" }, // если typeOfButtons = 'video'
