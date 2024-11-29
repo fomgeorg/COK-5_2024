@@ -11,8 +11,12 @@
     flex-direction: row;
 }
 
+.hidden_button_custom button {
+    display: none;
+}
+
 #content > div.main_wrapper > img {
-    width: 25%;
+    width: 20%;
 }
 
 @media (max-width: 720px){
@@ -36,8 +40,14 @@
     }
 }
 
+@media (max-width: 1200px){
+    #content > div.main_wrapper > img {
+        width: 50%;
+    }
+}
+
 #content > div.test_wrapper_type_10 {
-    justify-content: left;
+    /* justify-content: left; */
 }
 
 .center_center_custom{

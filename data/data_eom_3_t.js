@@ -53,10 +53,10 @@ const data = {
             {"type": 9},
             {"description": "Тут пишем описание задания"},
             {"definitions": [
-                "Экстракт",
-                "Рафинат",
-                "Масляный дистиллят",
-                "Фенол"
+                "<span class='zoom_paragraph'>Экстракт</span>",
+                "<span class='zoom_paragraph'>Рафинат</span>",
+                "<span class='zoom_paragraph'>Масляный дистиллят</span>",
+                "<span class='zoom_paragraph'>Фенол</span>"
             ]},
             {"answers": [
                 "Сырье процесса экстракции",

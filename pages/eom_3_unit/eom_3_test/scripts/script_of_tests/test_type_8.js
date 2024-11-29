@@ -243,6 +243,8 @@ function createTest(index){
         setTimeout(() => toTheoryPage(), 1);
     }
     function checkAnswer10() {
+                            nextBtn.classList.remove('gray_dis');
+                    nextBtn.disabled = false;
         document.querySelector('#control_button_2').style.display = `none`;
         var correctAnswers = test.filter(item => item.hasOwnProperty('correct_answer_type_10')).map(item => item.correct_answer_type_10)[0];  // получаем первый элемент (внутренний массив)
         // Получаем все элементы с классом 'targetField'
@@ -282,6 +284,7 @@ function createTest(index){
             }
         }
         if (shouldDecreaseAttempts){
+            var attempts = localStorage.getItem(`attempts_${number}`);
             attempts--;
             localStorage.setItem(`attempts_${number}`, attempts.toString());
         };

@@ -262,6 +262,8 @@ function waitForData() {
             document.getElementById('control_button_2').style.display = 'none';
             document.getElementById('control_button_3').style.display = 'none';
             nextBtn.classList.remove('gray_dis');
+            backWardBtn.classList.remove('gray_dis');
+            backWardBtn.disabled = false;
             nextBtn.disabled = false;
             window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Ответить' заблокированна!!!");
         };

@@ -25,7 +25,7 @@ const data = {
         "subtitle": "Изучите направление движения фаз в экстракционной колонне селективной очистки масел фенолом.",
         "step_of_popup": "Изучите направление движения фаз в экстракционной колонне селективной очистки масел фенолом.",
         "paragraph_1":[
-            {"text": `<b class='blue_header'>Экстракция </b>– это такой процесс при котором происходит извлечение одного вещества из раствора при использовании растворителя.`},
+            {"text": `<b class='blue_header'>Экстракция </b>– это такой процесс, при котором происходит извлечение одного вещества из раствора при использовании растворителя.`},
             {"text": `При процессе экстракции сырье – масляный дистиллят  и несмешивающийся с ним растворитель – фенол контактируют между собой, в результате чего образуются экстракт – раствор извлекаемого вещества в экстрагенте и рафинат – остаточный исходный раствор, из которого удалены эстрагируемые компоненты.`},
             {"text": `Сырье (масляный дистиллят) подается в верхнюю часть, противотоком ему в нижнюю часть экстрактора подается растворитель (фенол), С верха экстрактора выводится экстрактный раствор и далее он направляется на регенерацию, где после выделения из него растворителя получают экстракт. С низа эктрактора выводится рафинатный раствор, после извлечения из которого растворитель, получают целевой продукт – рафинат.`}
         ],
@@ -34,7 +34,7 @@ const data = {
         ],
     },
     "index_3":{
-        "subtitle": "Обозначьте на схеме экстракционной колоны необходимые потоки",
+        "subtitle": "Определите правильное направление движения фаз в экстракционной колонне",
         "step_of_popup": "Обозначьте на схеме экстракционной колоны необходимые потоки",
         "test":[
             {"type": 3},
@@ -132,12 +132,12 @@ const data = {
                 "<p class='popup_zoom_plc center_center_custom'><img class='answer_or_definition_img' src='./content/tests_content/06_06.png' alt='1'></p>"
             ]},
             {"answers": [
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Уравнение материального баланса</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Объемный расход сырья</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Объемный расход рафинатного раствора</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Объемный расход фенольного раствора</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Объемный расход растворителя</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Массовый расход растворителя</span></p>"
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Уравнение материального баланса</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Объемный расход сырья</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Объемный расход рафинатного раствора</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Объемный расход фенольного раствора</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Объемный расход растворителя</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Массовый расход растворителя</span></p>"
             ]},
             {"correct_answer_type_10": [1, 3, 2, 4, 5, 6]},
             {"image": true, "image_path": "./content/tests_content/empty_img.png", "image_sgn": "blablabla"}
@@ -189,9 +189,8 @@ const data = {
                             <td>34 %</td>
                         </tr>
                                 </table> <br>
-                            <p class='blue_header'><b>Расчетные параметры:</b></p><br>`},
-            {"test_with_text_2": 
-                `<table class='table_custom'>
+                            <p class='blue_header'><b>Расчетные параметры:</b></p><br>
+                    <table class='table_custom'>
                 <tr>
                     <th>Статьи баланса</th>
                     <th>% мас., на сырье</th>
@@ -233,6 +232,8 @@ const data = {
                     <td>Ответ 5</td>
                 </tr>
             </table><br>
+            `},
+            {"test_with_text_2": `
             Ответ 1 = {=100000}<br>
             Ответ 2 = {=300000}<br>
             Ответ 3 = {=400000}<br>
@@ -270,9 +271,8 @@ const data = {
                             <td>44%</td>
                         </tr>
                                 </table> <br>
-                            <p class='blue_header'><b>Расчетные параметры:</b></p><br>`},
-            {"test_with_text_2": 
-                `<table class='table_custom'>
+                            <p class='blue_header'><b>Расчетные параметры:</b></p><br>
+                            <table class='table_custom'>
                 <tr>
                     <th>Статьи баланса</th>
                     <th>% мас., на сырье</th>
@@ -313,7 +313,8 @@ const data = {
                     <td>44</td>
                     <td>Ответ 5</td>
                 </tr>
-            </table><br>
+            </table><br>`},
+            {"test_with_text_2": `
             Ответ 1 = {=300000}<br>
             Ответ 2 = {=600000}<br>
             Ответ 3 = {=900000}<br>
@@ -365,10 +366,10 @@ const data = {
                 "<p class='popup_zoom_plc'><img class='answer_or_definition_img' src='./content/tests_content/11_01.png' alt='1'></p>"
             ]},
             {"answers": [
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Уравнение теплового баланса</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Расход по тепловым потокам</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Энтальпия веществ</span></p>",
-                "<p class='popup_zoom_plc zoom_paragraph'><span class='p_custom'>Относительна плотность</span></p>"
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Уравнение теплового баланса</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Расход по тепловым потокам</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Энтальпия веществ</span></p>",
+                "<p class='popup_zoom_plc zoom_paragraph hidden_button_custom'><span class='p_custom'>Относительна плотность</span></p>"
             ]},
             {"correct_answer_type_10": [4, 2, 3, 1]},
             {"image": true, "image_path": "./content/tests_content/empty_img.png", "image_sgn": "blablabla"}
@@ -420,9 +421,8 @@ const data = {
                             <td>103,68 кДж/кг</td>
                         </tr>
                                 </table> <br>
-                            <p class='blue_header'><b>Расчетные параметры:</b></p><br>`},
-            {"test_with_text_2": 
-                `<table class='table_custom'>
+                            <p class='blue_header'><b>Расчетные параметры:</b></p><br>
+                            <table class='table_custom'>
                 <tr>
                     <th>Поток</th>
                     <th>Количество тепла, Q Вт</th>
@@ -435,8 +435,9 @@ const data = {
                     <td>Растворитель (фенол)</td>
                     <td>Ответ 2</td>
                 </tr>
-            </table><br>
-            Ответ 1 = {=3271537}<br>
+            </table><br>`},
+            {"test_with_text_2": 
+            `Ответ 1 = {=3271537}<br>
             Ответ 2 = {=5987520}<br>`},
             {"image": false, "image_path": "./content/page_content/empty_img.png"}
         ]
