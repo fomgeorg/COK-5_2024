@@ -265,7 +265,7 @@ function waitForData() {
             backWardBtn.classList.remove('gray_dis');
             backWardBtn.disabled = false;
             nextBtn.disabled = false;
-            window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Ответить' заблокированна!!!");
+            window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Ответить' заблокирована!!!");
         };
         // ЭТО ДЛЯ ОШИБОК
         function disabvarest() {
