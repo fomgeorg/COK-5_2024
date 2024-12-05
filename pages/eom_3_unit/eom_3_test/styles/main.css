@@ -1461,6 +1461,12 @@ line{
     }
 }
 @media (max-width: 510px) {
+
+    img {
+        width: 100%;
+        min-width: initial !important;
+    }
+
     .number {
         font-size: 15px;
     }
