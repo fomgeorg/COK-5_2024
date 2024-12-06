@@ -2029,3 +2029,7 @@ line{
         display: flex;
     }
 }
+
+#control_button_1 img, #control_button_2 img, #control_button_3 img, #control_button_4 img{
+    width: initial !important;
+}
