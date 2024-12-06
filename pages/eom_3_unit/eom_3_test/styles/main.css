@@ -1466,7 +1466,33 @@ line{
         width: 100% !important;
         min-width: initial !important;
     }
+    .image_wrapper img{
+        width: initial !important;
+    }
+    .unique_img_6{
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+    }
 
+    .image_test_type_2{
+        min-width: initial !important;
+        width: 100% !important;
+        text-align: start;
+        overflow: scroll;
+        margin-left: 25px;
+        height: 500px !important;
+    }
+
+    .image_test_type_2 img{
+        height: 100% !important;
+        width: initial !important;
+    }
+    .unique_img_index_11, .unique_img_index_12{
+        min-width: initial !important;
+        width: 100% !important;
+        margin: 0 !important;
+        overflow: auto !important;
+    }
     .number {
         font-size: 15px;
     }
